@@ -16,7 +16,9 @@
 </head>
 
 <body>
-  <p class="GameContainer" onmousedown="return false"></p>
+  <div>
+    <h1 class="GameContainer" onmousedown="event.preventDefault ? event.preventDefault() : event.returnValue = false"></h1>
+  </div>
   <div id="fps"></div>
   <div id="dt"></div>
   <p>By the way the song you're hearing is this one: <a href="http://battleofthebits.org/arena/Entry/bossabeat/21386/">http://battleofthebits.org/arena/Entry/bossabeat/21386/</a></p>
