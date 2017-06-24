@@ -28,7 +28,7 @@ musicProcessingNode.onaudioprocess = function(e) {
 }
 
 function startGame(){
-    musicProcessingNode.connect(audioContext.destination);
+//    musicProcessingNode.connect(audioContext.destination);
     musicProcessingNode.start;
 
     var drawx = 0;
