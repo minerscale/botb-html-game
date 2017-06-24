@@ -1,0 +1,422 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"AU",
+				"AUDV0"
+			],
+			[
+				"file",
+				"file_base_name"
+			],
+			[
+				"bass",
+				"bass_major"
+			],
+			[
+				"sq",
+				"square_inst"
+			],
+			[
+				"rand",
+				"random_list"
+			],
+			[
+				"main",
+				"main_melody"
+			],
+			[
+				"main_",
+				"main_melody_note_len"
+			],
+			[
+				"t",
+				"t"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!doctype html>\n\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n\n  <title>Yeah Boi</title>\n  <meta name=\"description\" content=\"The HTML5 Herald\">\n  <meta name=\"author\" content=\"SitePoint\">\n\n  <link rel=\"stylesheet\" href=\"css/styles.css?v=1.0\">\n\n  <!--[if lt IE 9]>\n  <script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n  <![endif]-->\n</head>\n\n<body>\n  \n  <script src=\"js/jquery-3.2.1.min.js\"</script>\n  <script src=\"js/scripts.js\"></script>\n</body>\n</html>\n",
+			"file": "index.html",
+			"file_size": 532,
+			"file_write_time": 131427252257918871,
+			"settings":
+			{
+				"buffer_size": 482,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "js/scripts.js",
+			"file_size": 35,
+			"file_write_time": 131427251627327140,
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Default/Syntax Tests.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Build",
+					""
+				],
+				[
+					"Build",
+					"Clean"
+				]
+			],
+			[
+				"Build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					""
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"All Syntaxes"
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"Performance"
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"Regex Compatibility"
+				]
+			],
+			[
+				"Packages/Default/Syntax Tests.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 372.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 539.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/aaron/programming/botb-html-game",
+		"/home/aaron/programming/botb-html-game/js"
+	],
+	"file_history":
+	[
+		"/home/aaron/Downloads/BotB Game Jam 2 samples.txt",
+		"/home/aaron/Downloads/jquery-3.2.1.min.js",
+		"/home/aaron/programming/index.html",
+		"/home/aaron/programming/botb-html-game/js/scripts.js",
+		"/home/aaron/programming/genesis-rpg/Makefile",
+		"/home/aaron/programming/genesis-rpg/src/player.c",
+		"/home/aaron/programming/genesis-rpg/src/player.h",
+		"/home/aaron/programming/genesis-rpg/res/resources.res",
+		"/home/aaron/programming/genesis-rpg/src/main.c",
+		"/home/aaron/software/gendev/sgdk/sgdk-read-only/sample/sprite/src/main.c",
+		"/home/aaron/.cache/.fr-OErtf3/res/resources.res",
+		"/home/aaron/programming/atari/helloWorld/helloworld.sublime-project",
+		"/home/aaron/programming/atari/helloWorld/helloworld.asm",
+		"/home/aaron/programming/bytebeat/main.c",
+		"/home/aaron/sketchbook/USB/USB.txt",
+		"/home/aaron/software/ha.c",
+		"/home/aaron/sketchbook/libraries/UsbStream/USB-IDs-for-free.txt",
+		"/home/aaron/sketchbook/libraries/UsbStream/usbdrvasm.S",
+		"/home/aaron/sketchbook/libraries/UsbStream/usbdrv.c",
+		"/home/aaron/sketchbook/libraries/UsbStream/usbdrv.h",
+		"/home/aaron/sketchbook/libraries/UsbStream/ArduinoNotes.txt",
+		"/home/aaron/sketchbook/libraries/readme.txt",
+		"/home/aaron/programming/atari/helloWorld/helloworld.a26",
+		"/home/aaron/Documents/Unreal/Intermediate/ProjectFiles/UnrealLaunchDaemon.project",
+		"/home/aaron/Documents/Unreal/ProjectCodeLitePreProcessor.txt",
+		"/home/aaron/Documents/Unreal/ProjectCodeCompletionFolders.txt",
+		"/home/aaron/Documents/CMakeLists.txt",
+		"/home/aaron/programming/atari/include/vcs.h",
+		"/home/aaron/a.out",
+		"/home/aaron/6502asm-sublime/package-metadata.json",
+		"/home/aaron/.cache/.fr-dCvr5F/CollectMini/CollectMini.asm",
+		"/home/aaron/Downloads/FromArduino/FromArduino.pde",
+		"/home/aaron/programming/atari/helloWorld/helloworld.lst",
+		"/home/aaron/programming/bog/6502-Assembly/6502-Assembly.tmLanguage",
+		"/home/aaron/programming/bog/6502-Assembly/6502-Assembly.YAML-tmLanguage",
+		"/home/aaron/programming/bog/6502-Assembly/Macro.sublime-snippet",
+		"/home/aaron/programming/bog/6502-Assembly/.gitignore",
+		"/home/aaron/programming/bog/6502-Assembly/SymbolList-Macro.tmPreferences",
+		"/home/aaron/programming/bog/6502-Assembly/SymbolList-GlobalLabels.tmPreferences",
+		"/home/aaron/programming/bog/6502-Assembly/SymbolList-Section.tmPreferences",
+		"/home/aaron/programming/bog/6502-Assembly/README.md",
+		"/home/aaron/Documents/programming/bytebeat/main.c",
+		"/home/aaron/Documents/programming/bytebeat/bytebeat.sublime-project",
+		"/home/aaron/Documents/programming/main.c",
+		"/home/aaron/software/urn/bind.c",
+		"/home/aaron/Documents/programming/bytebeat/build.sh",
+		"/home/aaron/Documents/programming/xtremeByteBeat/functions.h",
+		"/home/aaron/Documents/programming/xtremeByteBeat/makefile",
+		"/home/aaron/Documents/programming/xtremeByteBeat/functions.c",
+		"/home/aaron/Documents/programming/xtremeByteBeat/main.c",
+		"/home/aaron/Documents/programming/xtremeByteBeat/macros.h",
+		"/home/aaron/Documents/programming/xtremeByteBeat/algorithm.h",
+		"/home/aaron/Documents/programming/xtremeByteBeat/xtremeByteBeat.sublime-project",
+		"/home/aaron/Documents/programming/xtremeByteBeat/build.sh",
+		"/home/aaron/.config/sublime-text-3/Packages/User/bytebeat.sublime-build",
+		"/home/aaron/Documents/programming/build.sh",
+		"/home/aaron/Documents/programming/song.c",
+		"/home/aaron/Documents/programming/test.C",
+		"/home/aaron/.config/sublime-text-3/Packages/User/build.sh"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n",
+			"&sprites",
+			"&",
+			"*",
+			"rom.out",
+			"SIG_INTERRUPT0",
+			"joystick",
+			"input",
+			"$80",
+			"    ",
+			"        ",
+			"\\t\\t",
+			"\\t \\t",
+			"\\t",
+			"M68k",
+			"key",
+			"15",
+			"        ",
+			"$(GDK)",
+			"$GDK",
+			"    "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sprites",
+			"rom.smd",
+			"",
+			"    ",
+			"\\t",
+			"|",
+			"6502",
+			"\\t"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								377,
+								377
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 94.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "botb-html-game.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

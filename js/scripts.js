@@ -1,41 +1,52 @@
-var myGamePiece;
+var fps = 600;
+var width = 32;
+var height = 32;
+var hi = 0;
+var dt = 0;
 
-function startGame() {
-  myGameArea.canvas.setAttribute("id", "border");
-  myGamePiece = new component(30, 30, "red", 10, 120);
-  myGameArea.start();
-}
+var lastLoop = new Date;
 
-var myGameArea = {
-    canvas : document.createElement("canvas"),
-    start : function() {
-        this.canvas.width = 480;
-        this.canvas.height = 270;
-        this.context = this.canvas.getContext("2d");
-        document.body.insertBefore(this.canvas, document.body.childNodes[0]);
-        this.interval = setInterval(updateGameArea, 20);
-    },
-    clear : function() {
-        this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+
+function startGame(){
+
+    var drawx = 0;
+    var drawy = 0;
+
+    for (drawy = height; drawy > 0; drawy--){
+        for (drawx = width; drawx > 0; drawx--){
+            $(".GameContainer").prepend('<span data-x="'+drawx+'" data-y="'+drawy+'" class="blue">█</span>');
+        }
+        $(".GameContainer").prepend('<div></div>');
     }
+
+    setInterval(GameLoop,1000/fps)
 }
 
-function component(width, height, color, x, y) {
-    this.width = width;
-    this.height = height;
-    this.x = x;
-    this.y = y;
-    this.update = function(){
-        ctx = myGameArea.context;
-        ctx.fillStyle = color;
-        ctx.fillRect(this.x, this.y, this.width, this.height);
+function GameLoop()
+{
+    var ih = Math.floor(hi)
+    var thisLoop = new Date;
+    var framerate = 1000 / (thisLoop - lastLoop);
+    lastLoop = thisLoop;
+    $("#fps").html("fps: " + Math.round(framerate))
+    dt = 1/framerate
+    $("#dt").html("dt: " + dt)
+
+    var color
+    if (ih % (width*height*2) >= width*height){
+        color = "black"
     }
+    else{
+        color = "green"
+    }
+
+    SetColor((ih%width)+1,(Math.floor(ih/width)%height)+1,color)
+    hi += dt*9000;
 }
 
-function updateGameArea() {
-    myGameArea.clear();
-    myGamePiece.x += 1;
-    myGamePiece.update();
+function SetColor(x,y,color)
+{
+    $('[data-x="'+x+'"][data-y="'+y+'"]').attr("class",color)
 }
 
-startGame();
+startGame()
