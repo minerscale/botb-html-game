@@ -6,22 +6,26 @@
 .GameContainer{
 	font-family: freesans;
 	font-size: 16px;
-	line-height: 8px;
+	line-height: 16px;
 	cursor: default;
+	pointer-events: visible;
+}
+.pixel{
+	opacity: 1;
+}
+
+.pixel:hover{
+	opacity: 0.5;
 }
 
 .blue{
 	color: blue;
 }
 
+.red{
+	color: red;
+}
+
 .green{
-	color: #bada55;
-}
-
-.black{
-	color: black;
-}
-
-#border{
-  border-style: solid;
+	color: green;
 }
