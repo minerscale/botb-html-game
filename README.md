@@ -2,4 +2,6 @@
 ￼
 Hello there!
 
-It's a me! Mario!
+I'm making a drawing program in pure js/html/css!
+
+I don't know how to turn it into a game!
