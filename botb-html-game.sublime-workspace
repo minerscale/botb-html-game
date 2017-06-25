@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"pix",
+				"pixelSelector"
+			],
+			[
+				"mouse",
+				"mouseDown"
+			],
+			[
+				"b",
+				"brightness()"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"hover",
+				"hoverElement"
+			],
+			[
+				"vis",
+				"visible"
+			],
+			[
+				"Game",
+				"GameContainer"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
 				"border",
 				"border-style"
 			],
@@ -14,10 +50,6 @@
 			[
 				"bor",
 				"border-style"
-			],
-			[
-				"mar",
-				"margin"
 			],
 			[
 				"sam",
@@ -80,19 +112,28 @@
 	"buffers":
 	[
 		{
-			"file": "js/scripts.js",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 33519,
+				"buffer_size": 1302,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "css/styles.css",
 			"settings":
 			{
-				"buffer_size": 779,
+				"buffer_size": 721,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 34091,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -154,7 +195,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 539.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -181,12 +222,12 @@
 	],
 	"file_history":
 	[
+		"/home/aaron/Downloads/BotB Game Jam 2 samples.txt",
+		"/home/aaron/programming/botb-html-game/index.html",
 		"/home/aaron/programming/botb-html-game/css/styles.css",
 		"/home/aaron/Downloads/sfpack/README.TXT",
-		"/home/aaron/programming/botb-html-game/index.html",
 		"/home/aaron/programming/botb-html-game/js/scripts.js",
 		"/home/aaron/Downloads/BotB 17659 damnit kf i have to do homework why'd you have to pick now to host a bytebeat ohb _PLAY IN 22000 Hz wow_.txt",
-		"/home/aaron/Downloads/BotB Game Jam 2 samples.txt",
 		"/home/aaron/Downloads/jquery-3.2.1.min.js",
 		"/home/aaron/programming/index.html",
 		"/home/aaron/programming/genesis-rpg/Makefile",
@@ -261,6 +302,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";\n",
+			".green",
+			"font",
+			"█",
+			"style",
 			"SAMP_RATE",
 			"sin",
 			"abs",
@@ -316,30 +362,30 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "js/scripts.js",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 33519,
+						"buffer_size": 1302,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1345,
-								1345
+								440,
+								440
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -351,25 +397,53 @@
 				},
 				{
 					"buffer": 1,
-					"file": "index.html",
+					"file": "css/styles.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 779,
+						"buffer_size": 721,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								384,
-								384
+								719,
+								719
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34091,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								953,
+								953
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,

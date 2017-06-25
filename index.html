@@ -16,13 +16,27 @@
 </head>
 
 <body>
-  <div>
-    <h1 class="GameContainer" onmousedown="event.preventDefault ? event.preventDefault() : event.returnValue = false"></h1>
+  <button id="startGame" onclick="startGame();this.style.visibility='hidden';document.getElementById('GameHolder').style.visibility='visible'">Start Game</button>
+  <div id="GameHolder">
+    <h1 class="GameContainer" onmousedown="return false;"></h1>
+  <div id="colorSelector">
+    <br><br><br><br><br>
+    <button onclick="changeColor('green')" class="colorSelect green">█</button>
+    <br>
+    <button onclick="changeColor('blue')" class="colorSelect blue">█</button>
+    <br>
+    <button onclick="changeColor('black')" class="colorSelect black">█</button>
+    <br>
+    <button onclick="changeColor('white')" class="colorSelect white">█</button>
+    <br>
+    <button onclick="changeColor('red')" class="colorSelect red">█</button>
   </div>
-  <div id="fps"></div>
-  <div id="dt"></div>
-  <p>By the way the song you're hearing is this one: <a href="http://battleofthebits.org/arena/Entry/bossabeat/21386/">http://battleofthebits.org/arena/Entry/bossabeat/21386/</a></p>
+  </div>
+  <p id=fpscounter></p>
+
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/scripts.js"></script>
+  <script src="js/bytebeat.js"></script>
+  <footer><p id="btw">By the way the song you're hearing is this one: <a href="http://battleofthebits.org/arena/Entry/bossabeat/21386/">http://battleofthebits.org/arena/Entry/bossabeat/21386/</a></p></footer>
 </body>
 </html>
