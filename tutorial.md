@@ -2,8 +2,6 @@
 
 Hello and welcome to my *"game"* It's called that cause it's not really a game, it's a tracker thingy? Anyways, I'm going to show you how to use it!
 
-<img src="interface.png" width="50%"></img>
-
 The first thing you'll see is the Tick Rate. This defines how many ticks will happen in a second. What is a tick you ask? Well, It's the internal clock that this program runs on. All units of time except for Attack and Decay are measured in Ticks.
 
 Next is the Pattern Length. This is the time in ticks before we move on to the next pattern.  The when To Play tells the program which part of the song to play that particular pattern. An interesting quirk with this program is that the total length in ticks of a pattern is completely independent of the Pattern Length. This means that if you have a small amount of total ticks in your pattern it will just loop forever. If the pattern stops playing because When To Play at that current time is set to zero. The pattern will simply continue on from where it left off.

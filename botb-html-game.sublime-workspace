@@ -216,20 +216,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 1256,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "js/bytebeat.js",
 			"settings":
 			{
-				"buffer_size": 7774,
-				"encoding": "UTF-8",
+				"buffer_size": 5929,
 				"line_ending": "Unix"
 			}
 		}
@@ -310,16 +300,17 @@
 	},
 	"expanded_folders":
 	[
-		"/home/aaron/programming/botb-html-game",
-		"/home/aaron/programming/botb-html-game/css",
-		"/home/aaron/programming/botb-html-game/js"
+		"/home/aaron/programming/botb-html-game"
 	],
 	"file_history":
 	[
-		"/home/aaron/Downloads/BotB 25982 null1024 - WILD-BREAKER.zip",
-		"/home/aaron/programming/botb-html-game/css/styles.css",
-		"/home/aaron/programming/botb-html-game/js/bytebeat.js",
 		"/home/aaron/programming/botb-html-game/index.html",
+		"/home/aaron/programming/botb-html-game/js/bytebeat.js",
+		"/home/aaron/Downloads/spellcheck.txt",
+		"/home/aaron/programming/botb-html-game/tutorial.html",
+		"/home/aaron/programming/botb-html-game/css/styles.css",
+		"/home/aaron/programming/hello.html",
+		"/home/aaron/Downloads/BotB 25982 null1024 - WILD-BREAKER.zip",
 		"/home/aaron/programming/botb-html-game/js/song.js",
 		"/home/aaron/Downloads/BotB Game Jam 2 samples.txt",
 		"/home/aaron/Downloads/ahh/BEFORE PLAYING READ THIS!!.txt",
@@ -409,6 +400,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"onclick",
+			"#error",
+			"error",
 			"\\t",
 			"   ",
 			"-1",
@@ -530,61 +524,29 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1256,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1231,
-								1231
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "js/bytebeat.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7774,
+						"buffer_size": 5929,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2599,
-								2599
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -598,7 +560,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 22.0
 	},
 	"input":
 	{
@@ -639,7 +601,7 @@
 	"project": "botb-html-game.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":
