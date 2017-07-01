@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"patte",
+				"patternNo"
+			],
+			[
+				"patt",
+				"patternNo"
+			],
+			[
+				"pa",
+				"patternNo"
+			],
+			[
 				"note",
 				"notelen"
 			],
@@ -203,6 +215,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1256,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/bytebeat.js",
+			"settings":
+			{
+				"buffer_size": 7774,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Default/Syntax Tests.sublime-build",
 	"build_system_choices":
@@ -286,8 +316,9 @@
 	],
 	"file_history":
 	[
-		"/home/aaron/programming/botb-html-game/js/bytebeat.js",
+		"/home/aaron/Downloads/BotB 25982 null1024 - WILD-BREAKER.zip",
 		"/home/aaron/programming/botb-html-game/css/styles.css",
+		"/home/aaron/programming/botb-html-game/js/bytebeat.js",
 		"/home/aaron/programming/botb-html-game/index.html",
 		"/home/aaron/programming/botb-html-game/js/song.js",
 		"/home/aaron/Downloads/BotB Game Jam 2 samples.txt",
@@ -378,6 +409,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\\t",
+			"   ",
+			"-1",
+			"songLen",
+			"song",
+			";",
+			"id",
+			"UID",
+			"UIDD",
+			"id",
+			"'",
 			"value",
 			"that",
 			"findIndex",
@@ -451,9 +493,11 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"    ",
+			"\\t",
 			"oscillator",
 			"this",
 			"oscillators",
@@ -480,14 +524,75 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": true,
+		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1231,
+								1231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/bytebeat.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2599,
+								2599
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

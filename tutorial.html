@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Made with Remarkable!
+  </title>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/github.min.css" rel="stylesheet"/>
+  <style type="text/css">
+   h1,h2{border-bottom:1px solid}html a:hover,html pre{background-color:#073642}blockquote,body,h1,h2,h3,h4,h5,h6,html,img,li,ol,p,ul{margin:0;padding:0;font:inherit;vertical-align:baseline}img,ol,p,pre,ul{margin-bottom:20px}html *{font-family:ff-din-web-pro-1,ff-din-web-pro-2,sans-serif;font-size:16px;line-height:19.2px;color-profile:sRGB;color:#839496}body{margin:40px 70px}p{font-weight:lighter}strong{font-weight:700}ol,ul{margin-left:2em}ol ol,ol ul,ul ol,ul ul{margin-top:10px}li{margin-bottom:3px}h1,h2,h3,h4,h5,h6{font-weight:lighter;text-transform:capitalize;margin-top:20px;margin-bottom:10px}.hljs-strong,h1,mark{font-weight:700}h1,h2{font-size:24.62px;line-height:29.55px}h3{font-size:23.44px;line-height:28.13px}h4,h5,h6{font-size:22.16px;line-height:26.59px}h1 img,h2 img,h3 img,h4 img,h5 img,h6 img,p img{margin-bottom:0}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word;padding:15px}code,pre{font-family:monospace}blockquote{border-left:4px solid;padding:0 15px}blockquote>:first-child{margin-top:0}blockquote>:last-child{margin-bottom:15px}h1{text-transform:uppercase}h3,h4,h5,h6{border-bottom:none}html body{background-color:#002b36}html h1,html h2,html h3,html h4,html h5,html h6{border-color:#839496}html pre{color:#93a1a1}html a,html a:active,html a:visited,html code.url,html h1,html h2,html h3,html h4,html h5,html h6{color:#b58900}@media print{body{margin:0}*{color:#000!important}}table{border-collapse:collapse}td,th{border:1px solid #839496;padding:.5rem;text-align:left}mark{background-color:#93a1a1;color:#000}.hljs{display:block;overflow-x:auto;padding:.5em;background:#002b36;color:#839496}.hljs-comment,.hljs-quote{color:#586e75}.hljs-addition,.hljs-keyword,.hljs-selector-tag{color:#859900}.hljs-doctag,.hljs-literal,.hljs-meta .hljs-meta-string,.hljs-number,.hljs-regexp,.hljs-string{color:#2aa198}.hljs-name,.hljs-section,.hljs-selector-class,.hljs-selector-id,.hljs-title{color:#268bd2}.hljs-attr,.hljs-attribute,.hljs-class .hljs-title,.hljs-template-variable,.hljs-type,.hljs-variable{color:#b58900}.hljs-bullet,.hljs-link,.hljs-meta,.hljs-meta .hljs-keyword,.hljs-selector-attr,.hljs-selector-pseudo,.hljs-subst,.hljs-symbol{color:#cb4b16}.hljs-built_in,.hljs-deletion{color:#dc322f}.hljs-formula{background:#073642}.hljs-emphasis{font-style:italic}
+  </style>
+ </head>
+ <body>
+  <h3 id="tutorial">
+   Tutorial
+  </h3>
+  <p>
+   Hello and welcome to my
+   <em>
+    “game”
+   </em>
+   It’s called that cause it’s not really a game, it’s a tracker thingy? Anyways, I’m going to show you how to use it!
+  </p>
+  <p>
+   <img src="interface.png" width="50%"/>
+  </p>
+  <p>
+   The first thing you’ll see is the Tick Rate. This defines how many ticks will happen in a second. What is a tick you ask? Well, It’s the internal clock that this program runs on. All units of time except for Attack and Decay are measured in Ticks.
+  </p>
+  <p>
+   Next is the Pattern Length. This is the time in ticks before we move on to the next pattern.  The when To Play tells the program which part of the song to play that particular pattern. An interesting quirk with this program is that the total length in ticks of a pattern is completely independent of the Pattern Length. This means that if you have a small amount of total ticks in your pattern it will just loop forever. If the pattern stops playing because When To Play at that current time is set to zero. The pattern will simply continue on from where it left off.
+  </p>
+  <p>
+   The song length is just how many pattern lengths the song should play until it loops, so as not to iterate off any loops.
+  </p>
+  <p>
+   Now, there are two ways to input note values into this program. One way with numbers and the other with Note names. The note naming scheme is fairly straight forward. For example you have a C#4 for example. You would write into the box Cs4. The reason being because javascript doesn’t support having # symbols in variable names, and I can’t be assed to escape my inputs (Which means that you could probably find a way to define and manipulate variables to your advantage :0)
+  </p>
+  <p>
+   The three next values
+   <em>
+    must
+   </em>
+   have the same number of elements as Note Values. Ticks to next note is basically a countdown to the next note in ticks. Note Length is the length the note is held for before it tapers off in ticks and can be any positive number (even numbers bigger than Ticks To Next Note). The note volume is very straightforward with it simply being the volume of the current note. Although you can go higher than one it is not recommended as you could peak the volume.
+  </p>
+  <p>
+   The attack and decay numbers are instrument wide and are measured in milliseconds. The decay starts after the Note Length time is up and then will be completely tapered off by the end of the specified time.
+  </p>
+  <p>
+   The Add Pattern button will add an extra pattern and the Remove Pattern button will remove the last pattern added (There’s no warning so be careful!)
+  </p>
+  <p>
+   The start song button will start the song (duh) and the stop button will stop the song (duh). The tutorial button will take you here. (You clicked it so duh)
+  </p>
+  <p>
+   Now I’m pretty proud of this one. There’s a save button! It saves the song to local storage and you can retrieve the save with the load button. Also, when you press the save button it will copy your save to the clipboard for use on a different computer and there’s a text box for loading it later with the load from text box button. Anyway I’m so tired and sick of working on this I don’t think I can make a song with it so maybe some of you could make something while I take a well deserved rest… I did most of this the day before it was due. Including this wiki.
+  </p>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js">
+  </script>
+  <script>
+   hljs.initHighlightingOnLoad();
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   MathJax.Hub.Config({"showProcessingMessages" : false,"messageStyle" : "none","tex2jax": { inlineMath: [ [ "$", "$" ] ] }});
+  </script>
+ </body>
+</html>

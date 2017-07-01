@@ -20,6 +20,26 @@ p {
     text-align: center;
 }
 
+#tutorial{
+    -webkit-appearance: button;
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    padding: 2px 4px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+#tutorial:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+}
+
+
 br {
     line-height:24px;
 }
