@@ -4,20 +4,16 @@
 		"selected_items":
 		[
 			[
-				"note",
-				"notelen"
-			],
-			[
-				"get",
-				"getIndexByUID"
-			],
-			[
 				"patter",
 				"patternLen"
 			],
 			[
 				"in",
 				"instrument"
+			],
+			[
+				"note",
+				"note"
 			],
 			[
 				"no",
@@ -38,6 +34,10 @@
 			[
 				"osci",
 				"oscillators"
+			],
+			[
+				"get",
+				"getByUID"
 			],
 			[
 				"os",
@@ -204,49 +204,9 @@
 	"buffers":
 	[
 	],
-	"build_system": "Packages/Default/Syntax Tests.sublime-build",
+	"build_system": "",
 	"build_system_choices":
 	[
-		[
-			[
-				[
-					"Build",
-					""
-				],
-				[
-					"Build",
-					"Clean"
-				]
-			],
-			[
-				"Build",
-				""
-			]
-		],
-		[
-			[
-				[
-					"Packages/Default/Syntax Tests.sublime-build",
-					""
-				],
-				[
-					"Packages/Default/Syntax Tests.sublime-build",
-					"All Syntaxes"
-				],
-				[
-					"Packages/Default/Syntax Tests.sublime-build",
-					"Performance"
-				],
-				[
-					"Packages/Default/Syntax Tests.sublime-build",
-					"Regex Compatibility"
-				]
-			],
-			[
-				"Packages/Default/Syntax Tests.sublime-build",
-				""
-			]
-		]
 	],
 	"build_varint": "",
 	"command_palette":
@@ -278,19 +238,15 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/home/aaron/programming/botb-html-game",
-		"/home/aaron/programming/botb-html-game/css",
-		"/home/aaron/programming/botb-html-game/js"
-	],
 	"file_history":
 	[
-		"/home/aaron/programming/botb-html-game/js/bytebeat.js",
-		"/home/aaron/programming/botb-html-game/css/styles.css",
+		"/home/aaron/programming/DeepLeaning/DeepLeaning.sublime-project",
+		"/home/aaron/programming/Archive/bytebeat/bytebeat.sublime-project",
+		"/home/aaron/programming/DeepLeaning/build.sh",
 		"/home/aaron/programming/botb-html-game/index.html",
-		"/home/aaron/programming/botb-html-game/js/song.js",
 		"/home/aaron/Downloads/BotB Game Jam 2 samples.txt",
+		"/home/aaron/programming/botb-html-game/js/song.js",
+		"/home/aaron/programming/botb-html-game/js/bytebeat.js",
 		"/home/aaron/Downloads/ahh/BEFORE PLAYING READ THIS!!.txt",
 		"/home/aaron/.cache/.fr-EIjnu8/BEFORE PLAYING READ THIS!!.txt",
 		"/home/aaron/Documents/password.txt",
@@ -298,6 +254,7 @@
 		"/home/aaron/Documents/MuseScore2/Scores/Haha_Andrew....mscx",
 		"/home/aaron/.cache/.fr-mHH644/manifest.json",
 		"/home/aaron/programming/botb-html-game/js/scripts.js",
+		"/home/aaron/programming/botb-html-game/css/styles.css",
 		"/home/aaron/Downloads/BotB 25368 Minerscale - (Still) Nearly 1KB (1).c",
 		"/home/aaron/Downloads/BotB 25368 Minerscale - (Still) Nearly 1KB.c",
 		"/home/aaron/programming/sketch377698/evolutionMATH2/evolutionMATH2.pde",
@@ -364,7 +321,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
@@ -378,9 +335,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"value",
-			"that",
-			"findIndex",
 			"envolopes",
 			"envelopes",
 			"uid",
@@ -454,8 +408,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"oscillator",
-			"this",
 			"oscillators",
 			"UID",
 			"uid",
@@ -493,7 +445,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 22.0
 	},
 	"input":
 	{
@@ -522,19 +474,15 @@
 		]
 	},
 	"menu_visible": true,
-	"output.exec":
-	{
-		"height": 94.0
-	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
-	"project": "botb-html-game.sublime-project",
+	"pinned_build_system": "Docker Run",
+	"project": "index.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":

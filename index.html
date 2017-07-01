@@ -9,6 +9,7 @@
   <meta name="author" content="Minerscale">
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -16,6 +17,25 @@
 </head>
 
 <body>
+
+<div id="container">
+  <div hidden id="globals" data-pattern=""></div>
+  <p>Pattern Length: </p><input type="number" id="patternLen" value="12"><br>
+  <p>Song Length (In patterns): </p><input type="number" id="songLen" value="2"><br>
+</div>
+<br>
+<div id="buttons">
+<button onclick="addPattern()">Add Pattern</button>
+<button onclick="removePattern()">Remove Pattern</button><br>
+<button onclick="updateSong()">Start Song</button>
+<button onclick="stopSong()">Stop Song</button><br>
+</div>
+<br><div id="error"></div><br>
+
+<button onclick="saveSong()" style="text-align:left !important">Save Song</button ><br>
+<button onclick="loadSong(localStorage.getItem('saved'))" style="text-align:left !important">Load Song</button>
+
+<script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bytebeat.js"></script>
 </body>
 </html>
